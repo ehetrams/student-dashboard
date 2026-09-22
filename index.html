@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashborad</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+  <h1>Student Dashboard</h1>
+  <p id="today-date"></p>
+</div>
+
+<div class="dashboard-summary" id="dashboard-summary"></div>
+
+<div class="add-sub-sec">
+  <h3>Add Subject</h3>
+  <form id="sub-form">
+    <label for="sub-name">Name:</label>
+    <input type="text" id="sub-name" placeholder="Enter subject name" />
+    <label for="sub-topics">Total Topics:</label>
+    <input type="number" id="sub-topics" placeholder="e.g. 10" />
+    <button class="add-btn" type="submit">Add subject</button>
+  </form>
+</div>
+
+<div class="sub-cards" id="sub-cards-container"></div>
+
+<div class="add-sub-sec">
+  <h3>Add Assignment</h3>
+  <form id="assign-form">
+    <label for="assign-title">Title:</label>
+    <input type="text" id="assign-title" placeholder="Assignment title" />
+    <label for="assign-due">Due Date:</label>
+    <input type="date" id="assign-due" />
+    <label for="assign-subject">Subject:</label>
+    <select id="assign-subject"></select>
+    <button class="add-btn" type="submit">Add assignment</button>
+  </form>
+</div>
+
+<div class="list-container" id="assignments-container"></div>
+
+<div class="add-sub-sec">
+  <h3>Add Exam</h3>
+  <form id="exam-form">
+    <label for="exam-date">Exam Date:</label>
+    <input type="date" id="exam-date" />
+    <label for="exam-subject">Subject:</label>
+    <select id="exam-subject"></select>
+    <label for="exam-topics">Topics to Revise (comma separated):</label>
+    <input type="text" id="exam-topics" placeholder="ER Diagrams, Joins" />
+    <button class="add-btn" type="submit">Add exam</button>
+  </form>
+</div>
+
+<div class="list-container" id="exams-container"></div>
+
+<script src="scripts.js"></script>
+  </body>
+</html>
