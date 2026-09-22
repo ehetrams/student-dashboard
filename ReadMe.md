@@ -6,7 +6,8 @@ Built with **vanilla HTML, CSS, and JavaScript** — no frameworks, no build too
 
 **[Live Demo](https://ehetrams.github.io/student-dashboard/)**
 
-![Dashboard Screenshot]() 
+![Dashboard Screenshot](<img width="954" height="479" alt="linkdln-post-2" src="https://github.com/user-attachments/assets/aabc83dd-b85d-43a6-b8fe-4106bc36e7cc" />
+) 
 
 ---
 
