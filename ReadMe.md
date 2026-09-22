@@ -4,9 +4,9 @@ A single-page web app for tracking academic life as a student — assignments, e
 
 Built with **vanilla HTML, CSS, and JavaScript** — no frameworks, no build tools, no backend. Data persists in the browser using `localStorage`.
 
-**[Live Demo](#)**
+**[Live Demo](https://ehetrams.github.io/student-dashboard/)**
 
-![Dashboard Screenshot](#) 
+![Dashboard Screenshot]() 
 
 ---
 
@@ -80,7 +80,7 @@ No installation or build step required.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/student-dashboard.git
+   git clone https://github.com/ehetrams/student-dashboard.git
    ```
 2. Open `index.html` in a browser — that's it.
 
